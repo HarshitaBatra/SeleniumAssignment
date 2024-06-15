@@ -1,0 +1,19 @@
+# Sauce Labs Demo Test Suite
+
+## Setup Instructions
+
+1. **Install Python:** Download and install Python 
+2. **Install Selenium:** Run `pip install selenium`.
+3. **Install a WebDriver:** Download ChromeDriver and add it to your system PATH.
+
+## Running the Tests
+
+To run the tests, execute the following command:
+
+python filename.py
+
+# Dependencies
+Python
+Selenium
+ChromeDriver
+gtml-testRunner

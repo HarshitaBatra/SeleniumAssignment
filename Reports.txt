@@ -1,0 +1,9 @@
+# To Generate Reports
+pip install html-testRunner
+
+# At the beginning of your script, import HTMLTestRunner
+import HtmlTestRunner
+
+# In the main block, change the unittest.main() call to include HTMLTestRunner
+if __name__ == "__main__":
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='reports'))
